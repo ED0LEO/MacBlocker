@@ -3,7 +3,7 @@
 Block mac apps and prevent them from being opened.
 
 Automator shell script (for auto launch on login):
-
+```bash
 python3 << EOF
 import subprocess
 import time
@@ -35,3 +35,4 @@ if __name__ == '__main__':
 
     block_apps()
 EOF
+```
